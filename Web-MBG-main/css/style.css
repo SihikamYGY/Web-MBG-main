@@ -995,6 +995,7 @@ header.scrolled {
     box-shadow: var(--shadow);
     margin-bottom: 3rem;
     overflow: hidden;
+    z-index: 1;
 }
 
 #map {
@@ -1010,7 +1011,7 @@ header.scrolled {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    z-index: -10000;
+    z-index: 10;
 }
 
 .map-control-btn {
